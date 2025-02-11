@@ -208,3 +208,122 @@ footer {
     transform: scale(1.05);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
+/* Course Curriculum */
+.course-curriculum {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.course-curriculum h2 {
+    color: #00ADB5;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.course-curriculum ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.course-curriculum ul li {
+    background: #393E46;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.course-curriculum ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.course-curriculum ul li i {
+    color: #00ADB5;
+    margin-right: 10px;
+}
+
+/* Bonus Class */
+.bonus-class {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.bonus-class h2 {
+    color: #00ADB5;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.bonus-class p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #EEEEEE;
+}
+
+/* Support Section */
+.support {
+    margin-bottom: 60px;
+    text-align: center;
+}
+.support h2 {
+    color: #00ADB5;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+.support ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.support ul li {
+    background: #393E46;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.support ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.support ul li i {
+    color: #00ADB5;
+    margin-right: 10px;
+}
+/* Countdown Section */
+.countdown-section {
+    background: linear-gradient(135deg, #00ADB5, #393E46);
+    padding: 40px 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 60px;
+}
+.countdown-section h2 {
+    color: #EEEEEE; /* Light gray for headings */
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+.countdown-section p {
+    color: #EEEEEE; /* Light gray for description */
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+#countdown-timer {
+    font-size: 2em;
+    color: #FFD700; /* Gold color for better visibility */
+    margin-top: 20px;
+}
+#countdown-timer span {
+    font-weight: bold;
+}
