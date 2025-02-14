@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', function () {
     setTimeout(() => {
       chatWidget.classList.add('show');
       playOpenSound(); // Play sound when chat opens
-    }, 15000);
+    }, 45000);
 
     // Toggle chat visibility
     whatsappIcon.addEventListener('click', () => {
