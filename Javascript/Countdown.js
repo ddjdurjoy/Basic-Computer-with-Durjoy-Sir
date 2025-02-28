@@ -79,6 +79,6 @@ const countdownFunction = setInterval(() => {
   if (distance < 0) {
     clearInterval(countdownFunction);
     document.querySelector(".countdown").innerHTML =
-      "<strong>ভর্তি শেষ হয়েছে!</strong>";
+      "<strong>ভর্তির সময় শেষ!</strong>";
   }
 }, 1000);
